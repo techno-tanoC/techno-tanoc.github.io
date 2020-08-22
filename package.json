@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate"
+  },
   "dependencies": {
     "@nuxt/content": "^1.6.1",
     "nuxt": "^2.14.3"
