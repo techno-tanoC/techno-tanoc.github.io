@@ -1,3 +1,7 @@
 export default {
-  modules: ['@nuxt/content']
+  modules: ['@nuxt/content'],
+
+  generate: {
+    dir: 'docs'
+  }
 }
