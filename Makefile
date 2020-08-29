@@ -1,4 +1,4 @@
-deploy:
+publish:
 	yarn build
 	git add docs
 	git commit -m "build"
