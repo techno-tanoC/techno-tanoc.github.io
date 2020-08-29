@@ -1,6 +1,5 @@
 ---
-title: samples
-draft: true
+title: Embedded samples
 ---
 
 ## samples
@@ -15,7 +14,7 @@ fn main() {
 
 ### Twitter
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">vtuberのファンアートをRTすることを生業にしています。インフラエンジニアは副業です。</p>&mdash; てくのたのしー (@techno_tanoC) <a href="https://twitter.com/techno_tanoC/status/1271462943444492295?ref_src=twsrc%5Etfw">June 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://t.co/crzl4CFIMU">https://t.co/crzl4CFIMU</a><br>今日の真理 <a href="https://t.co/AtIeXhMpg3">pic.twitter.com/AtIeXhMpg3</a></p>&mdash; てくのたのしー (@techno_tanoC) <a href="https://twitter.com/techno_tanoC/status/1277086622509494273?ref_src=twsrc%5Etfw">June 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ### YouTube
 
