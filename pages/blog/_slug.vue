@@ -12,7 +12,7 @@
       const article = await $content('articles', params.slug).fetch()
       const [prev, next] = await $content('articles')
         .only(['title', 'slug'])
-        .sortBy(['createdAt', 'asc'])
+        .sortBy(['date', 'asc'])
         .surround(params.slug)
         .fetch()
 
