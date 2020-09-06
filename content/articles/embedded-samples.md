@@ -1,6 +1,7 @@
 ---
 title: Embedded samples
 date: 2020-08-29
+draft: true
 ---
 
 ## samples

@@ -14,8 +14,11 @@
 <script>
   export default {
     async asyncData({ $content, params }) {
-      const articles = await $content('articles', params.slug)
+      const query = process.env.NODE_ENV === 'production' ? { draft: { $ne: true } } : {}
+
+      const articles = await $content('articles')
         .only(['slug', 'title', 'date'])
+        .where(query)
         .sortBy('date', 'desc')
         .fetch()
 

@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate"
+    "server": "nuxt",
+    "server:production": "NODE_ENV=production nuxt",
+    "build": "nuxt generate",
+    "build:production": "NODE_ENV=production nuxt generate"
   },
   "dependencies": {
     "@nuxt/content": "^1.6.1",
