@@ -1,5 +1,8 @@
 export default {
-  modules: ['@nuxt/content'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/bulma'
+  ],
 
   components: true,
 
