@@ -58,8 +58,8 @@ normal *italic* normal
 normal _italic_ normal
 
 ## 太字
-normal ***bold*** normal
-normal ___bold___ normal
+normal **bold** normal
+normal __bold__ normal
 
 ## 斜体太字
 normal ***bold*** normal
