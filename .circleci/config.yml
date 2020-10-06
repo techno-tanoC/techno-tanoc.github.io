@@ -1,0 +1,38 @@
+version: 2.1
+
+commands:
+  restore_npm_cache:
+    description: Restore npm cache
+    steps:
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - v1-dependencies-
+
+  save_npm_cache:
+    description: Save npm cache
+    steps:
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "yarn.lock" }}
+
+jobs:
+  deploy:
+    docker:
+      - image: node:lts-alpine
+    steps:
+      - checkout
+      - restore_npm_cache
+      - run:
+          description: install npm packages
+          command: |
+            yarn install --frozen-lockfile
+      - save_npm_cache
+
+workflows:
+  version: 2
+
+  deploy:
+    jobs:
+      - deploy
